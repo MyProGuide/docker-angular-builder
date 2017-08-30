@@ -93,6 +93,6 @@ RUN set -ex \
   && rm yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz
 
 # Code by myself
-RUN npm install -g --unsafe-perm @angular/cli@1.2.7 @angular/compiler-cli@2.3.1 typescript@2.0.2 @angular/compiler@2.3.1
+RUN npm install -g --unsafe-perm @angular/cli@1.3.0 @angular/compiler-cli@4.2.4 typescript@2.3.3 @angular/compiler@4.2.4
 
 CMD [ "node" ]
